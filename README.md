@@ -1,21 +1,21 @@
-# Train Consist Management App (UC3)
+# Train Consist Management App (UC5)
 
 ## Flow of Project
 
 * Application starts
-* Bogie IDs are added
-* Duplicate IDs are inserted
-* HashSet removes duplicates automatically
-* Unique bogie IDs are displayed
+* Bogies are added to formation
+* Duplicate bogie is attempted
+* LinkedHashSet removes duplicate automatically
+* Formation is displayed in insertion order
 
 ## Objective
 
-To ensure uniqueness of bogie IDs using HashSet.
+To maintain ordered and unique train formation using LinkedHashSet.
 
 ## Topics Covered
 
+* LinkedHashSet
 * Set Interface
-* HashSet
 * add() method
-* Uniqueness enforcement
-* No duplicate data
+* Order + Uniqueness
+* Duplicate handling
