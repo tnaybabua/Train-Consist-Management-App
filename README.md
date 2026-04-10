@@ -1,21 +1,21 @@
-# Train Consist Management App (UC3)
+# Train Consist Management App (UC4)
 
 ## Flow of Project
 
 * Application starts
-* Bogie IDs are added
-* Duplicate IDs are inserted
-* HashSet removes duplicates automatically
-* Unique bogie IDs are displayed
+* Bogies are added in sequence
+* Pantry Car is inserted at specific position
+* First and last bogies are removed
+* Final ordered consist is displayed
 
 ## Objective
 
-To ensure uniqueness of bogie IDs using HashSet.
+To maintain ordered train consist using LinkedList operations.
 
 ## Topics Covered
 
-* Set Interface
-* HashSet
-* add() method
-* Uniqueness enforcement
-* No duplicate data
+* LinkedList
+* add(), add(index)
+* remove()
+* Order preservation
+* Dynamic insertion and deletion
