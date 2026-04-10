@@ -1,21 +1,21 @@
-# Train Consist Management App (UC1)
+# Train Consist Management App (UC2)
 
 ## Flow of Project
 
 * Application starts
-* Welcome message is displayed
-* Train consist is initialized (empty list)
-* Initial bogie count is shown
-* Current consist (empty) is displayed
+* Passenger bogies are added
+* Bogies are displayed
+* One bogie is removed
+* Existence of bogie is checked
+* Final consist is displayed
 
 ## Objective
 
-To initialize the train system and display the initial consist state.
+To manage passenger bogies dynamically using ArrayList operations.
 
 ## Topics Covered
 
-* Class and Main Method
 * ArrayList
-* List Interface
-* Console Output
-* Dynamic Initialization
+* add(), remove(), contains()
+* CRUD Operations
+* Dynamic data handling
