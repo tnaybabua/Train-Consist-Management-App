@@ -1,21 +1,22 @@
-# Train Consist Management App (UC5)
+# Train Consist Management App (UC6)
+
 
 ## Flow of Project
 
 * Application starts
-* Bogies are added to formation
-* Duplicate bogie is attempted
-* LinkedHashSet removes duplicate automatically
-* Formation is displayed in insertion order
+* Bogie-capacity mapping is created
+* Data is stored using HashMap
+* Entries are iterated
+* Capacity details are displayed
 
 ## Objective
 
-To maintain ordered and unique train formation using LinkedHashSet.
+To associate bogies with their seating or load capacity using HashMap.
 
 ## Topics Covered
 
-* LinkedHashSet
-* Set Interface
-* add() method
-* Order + Uniqueness
-* Duplicate handling
+* HashMap
+* Map Interface
+* put() method
+* entrySet() iteration
+* Key–Value mapping
