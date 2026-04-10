@@ -1,21 +1,21 @@
-# Train Consist Management App (UC2)
+# Train Consist Management App (UC3)
 
 ## Flow of Project
 
 * Application starts
-* Passenger bogies are added
-* Bogies are displayed
-* One bogie is removed
-* Existence of bogie is checked
-* Final consist is displayed
+* Bogie IDs are added
+* Duplicate IDs are inserted
+* HashSet removes duplicates automatically
+* Unique bogie IDs are displayed
 
 ## Objective
 
-To manage passenger bogies dynamically using ArrayList operations.
+To ensure uniqueness of bogie IDs using HashSet.
 
 ## Topics Covered
 
-* ArrayList
-* add(), remove(), contains()
-* CRUD Operations
-* Dynamic data handling
+* Set Interface
+* HashSet
+* add() method
+* Uniqueness enforcement
+* No duplicate data
