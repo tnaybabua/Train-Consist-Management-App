@@ -1,21 +1,21 @@
-# Train Consist Management App (UC4)
+# Train Consist Management App (UC5)
 
 ## Flow of Project
 
 * Application starts
-* Bogies are added in sequence
-* Pantry Car is inserted at specific position
-* First and last bogies are removed
-* Final ordered consist is displayed
+* Bogies are added to formation
+* Duplicate bogie is attempted
+* LinkedHashSet removes duplicate automatically
+* Formation is displayed in insertion order
 
 ## Objective
 
-To maintain ordered train consist using LinkedList operations.
+To maintain ordered and unique train formation using LinkedHashSet.
 
 ## Topics Covered
 
-* LinkedList
-* add(), add(index)
-* remove()
-* Order preservation
-* Dynamic insertion and deletion
+* LinkedHashSet
+* Set Interface
+* add() method
+* Order + Uniqueness
+* Duplicate handling
