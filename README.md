@@ -1,22 +1,23 @@
-# Train Consist Management App (UC6)
+# Train Consist Management App (UC7)
 
 
 ## Flow of Project
 
 * Application starts
-* Bogie-capacity mapping is created
-* Data is stored using HashMap
-* Entries are iterated
-* Capacity details are displayed
+* Bogie objects are created
+* Bogies are stored in a list
+* Comparator is applied
+* Bogies are sorted by capacity
+* Sorted result is displayed
 
 ## Objective
 
-To associate bogies with their seating or load capacity using HashMap.
+To sort bogies based on seating capacity using Comparator.
 
 ## Topics Covered
 
-* HashMap
-* Map Interface
-* put() method
-* entrySet() iteration
-* Key–Value mapping
+* Custom Class (Bogie)
+* List of Objects
+* Comparator
+* Lambda Expression
+* Sorting Collections
